@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7497390017994271007EFDDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749738FF17994271007EFDDE /* UIKit.framework */; };
+		7497390217994271007EFDDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7497390117994271007EFDDE /* Foundation.framework */; };
+		7497390417994271007EFDDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7497390317994271007EFDDE /* CoreGraphics.framework */; };
+		7497390617994271007EFDDE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7497390517994271007EFDDE /* CoreData.framework */; };
+		7497390C17994271007EFDDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7497390A17994271007EFDDE /* InfoPlist.strings */; };
+		7497390E17994271007EFDDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7497390D17994271007EFDDE /* main.m */; };
+		7497391217994271007EFDDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7497391117994271007EFDDE /* AppDelegate.m */; };
+		7497391417994271007EFDDE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7497391317994271007EFDDE /* Default.png */; };
+		7497391617994271007EFDDE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7497391517994271007EFDDE /* Default@2x.png */; };
+		7497391817994271007EFDDE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7497391717994271007EFDDE /* Default-568h@2x.png */; };
+		7497391B17994271007EFDDE /* OneUpDraggable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7497391917994271007EFDDE /* OneUpDraggable.xcdatamodeld */; };
+		7497392317994272007EFDDE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7497392217994272007EFDDE /* SenTestingKit.framework */; };
+		7497392417994272007EFDDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749738FF17994271007EFDDE /* UIKit.framework */; };
+		7497392517994272007EFDDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7497390117994271007EFDDE /* Foundation.framework */; };
+		7497392617994272007EFDDE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7497390517994271007EFDDE /* CoreData.framework */; };
+		7497392E17994272007EFDDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7497392C17994272007EFDDE /* InfoPlist.strings */; };
+		7497393117994272007EFDDE /* OneUpDraggableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7497393017994272007EFDDE /* OneUpDraggableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7497392717994272007EFDDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 749738F417994271007EFDDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749738FB17994271007EFDDE;
+			remoteInfo = OneUpDraggable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		749738FC17994271007EFDDE /* OneUpDraggable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneUpDraggable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		749738FF17994271007EFDDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7497390117994271007EFDDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7497390317994271007EFDDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7497390517994271007EFDDE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7497390917994271007EFDDE /* OneUpDraggable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OneUpDraggable-Info.plist"; sourceTree = "<group>"; };
+		7497390B17994271007EFDDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7497390D17994271007EFDDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7497390F17994271007EFDDE /* OneUpDraggable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OneUpDraggable-Prefix.pch"; sourceTree = "<group>"; };
+		7497391017994271007EFDDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7497391117994271007EFDDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7497391317994271007EFDDE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7497391517994271007EFDDE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7497391717994271007EFDDE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7497391A17994271007EFDDE /* OneUpDraggable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneUpDraggable.xcdatamodel; sourceTree = "<group>"; };
+		7497392117994272007EFDDE /* OneUpDraggableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneUpDraggableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7497392217994272007EFDDE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7497392B17994272007EFDDE /* OneUpDraggableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OneUpDraggableTests-Info.plist"; sourceTree = "<group>"; };
+		7497392D17994272007EFDDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7497392F17994272007EFDDE /* OneUpDraggableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneUpDraggableTests.h; sourceTree = "<group>"; };
+		7497393017994272007EFDDE /* OneUpDraggableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneUpDraggableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		749738F917994271007EFDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7497390017994271007EFDDE /* UIKit.framework in Frameworks */,
+				7497390217994271007EFDDE /* Foundation.framework in Frameworks */,
+				7497390417994271007EFDDE /* CoreGraphics.framework in Frameworks */,
+				7497390617994271007EFDDE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7497391D17994272007EFDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7497392317994272007EFDDE /* SenTestingKit.framework in Frameworks */,
+				7497392417994272007EFDDE /* UIKit.framework in Frameworks */,
+				7497392517994272007EFDDE /* Foundation.framework in Frameworks */,
+				7497392617994272007EFDDE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		749738F317994271007EFDDE = {
+			isa = PBXGroup;
+			children = (
+				7497390717994271007EFDDE /* OneUpDraggable */,
+				7497392917994272007EFDDE /* OneUpDraggableTests */,
+				749738FE17994271007EFDDE /* Frameworks */,
+				749738FD17994271007EFDDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		749738FD17994271007EFDDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				749738FC17994271007EFDDE /* OneUpDraggable.app */,
+				7497392117994272007EFDDE /* OneUpDraggableTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		749738FE17994271007EFDDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				749738FF17994271007EFDDE /* UIKit.framework */,
+				7497390117994271007EFDDE /* Foundation.framework */,
+				7497390317994271007EFDDE /* CoreGraphics.framework */,
+				7497390517994271007EFDDE /* CoreData.framework */,
+				7497392217994272007EFDDE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7497390717994271007EFDDE /* OneUpDraggable */ = {
+			isa = PBXGroup;
+			children = (
+				7497391017994271007EFDDE /* AppDelegate.h */,
+				7497391117994271007EFDDE /* AppDelegate.m */,
+				7497391917994271007EFDDE /* OneUpDraggable.xcdatamodeld */,
+				7497390817994271007EFDDE /* Supporting Files */,
+			);
+			path = OneUpDraggable;
+			sourceTree = "<group>";
+		};
+		7497390817994271007EFDDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7497390917994271007EFDDE /* OneUpDraggable-Info.plist */,
+				7497390A17994271007EFDDE /* InfoPlist.strings */,
+				7497390D17994271007EFDDE /* main.m */,
+				7497390F17994271007EFDDE /* OneUpDraggable-Prefix.pch */,
+				7497391317994271007EFDDE /* Default.png */,
+				7497391517994271007EFDDE /* Default@2x.png */,
+				7497391717994271007EFDDE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7497392917994272007EFDDE /* OneUpDraggableTests */ = {
+			isa = PBXGroup;
+			children = (
+				7497392F17994272007EFDDE /* OneUpDraggableTests.h */,
+				7497393017994272007EFDDE /* OneUpDraggableTests.m */,
+				7497392A17994272007EFDDE /* Supporting Files */,
+			);
+			path = OneUpDraggableTests;
+			sourceTree = "<group>";
+		};
+		7497392A17994272007EFDDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7497392B17994272007EFDDE /* OneUpDraggableTests-Info.plist */,
+				7497392C17994272007EFDDE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		749738FB17994271007EFDDE /* OneUpDraggable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7497393417994272007EFDDE /* Build configuration list for PBXNativeTarget "OneUpDraggable" */;
+			buildPhases = (
+				749738F817994271007EFDDE /* Sources */,
+				749738F917994271007EFDDE /* Frameworks */,
+				749738FA17994271007EFDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneUpDraggable;
+			productName = OneUpDraggable;
+			productReference = 749738FC17994271007EFDDE /* OneUpDraggable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7497392017994272007EFDDE /* OneUpDraggableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7497393717994272007EFDDE /* Build configuration list for PBXNativeTarget "OneUpDraggableTests" */;
+			buildPhases = (
+				7497391C17994272007EFDDE /* Sources */,
+				7497391D17994272007EFDDE /* Frameworks */,
+				7497391E17994272007EFDDE /* Resources */,
+				7497391F17994272007EFDDE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7497392817994272007EFDDE /* PBXTargetDependency */,
+			);
+			name = OneUpDraggableTests;
+			productName = OneUpDraggableTests;
+			productReference = 7497392117994272007EFDDE /* OneUpDraggableTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		749738F417994271007EFDDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Mindvalley;
+			};
+			buildConfigurationList = 749738F717994271007EFDDE /* Build configuration list for PBXProject "OneUpDraggable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 749738F317994271007EFDDE;
+			productRefGroup = 749738FD17994271007EFDDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				749738FB17994271007EFDDE /* OneUpDraggable */,
+				7497392017994272007EFDDE /* OneUpDraggableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		749738FA17994271007EFDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7497390C17994271007EFDDE /* InfoPlist.strings in Resources */,
+				7497391417994271007EFDDE /* Default.png in Resources */,
+				7497391617994271007EFDDE /* Default@2x.png in Resources */,
+				7497391817994271007EFDDE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7497391E17994272007EFDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7497392E17994272007EFDDE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7497391F17994272007EFDDE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		749738F817994271007EFDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7497390E17994271007EFDDE /* main.m in Sources */,
+				7497391217994271007EFDDE /* AppDelegate.m in Sources */,
+				7497391B17994271007EFDDE /* OneUpDraggable.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7497391C17994272007EFDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7497393117994272007EFDDE /* OneUpDraggableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7497392817994272007EFDDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749738FB17994271007EFDDE /* OneUpDraggable */;
+			targetProxy = 7497392717994272007EFDDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7497390A17994271007EFDDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7497390B17994271007EFDDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7497392C17994272007EFDDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7497392D17994272007EFDDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7497393217994272007EFDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7497393317994272007EFDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7497393517994272007EFDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneUpDraggable/OneUpDraggable-Prefix.pch";
+				INFOPLIST_FILE = "OneUpDraggable/OneUpDraggable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7497393617994272007EFDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneUpDraggable/OneUpDraggable-Prefix.pch";
+				INFOPLIST_FILE = "OneUpDraggable/OneUpDraggable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7497393817994272007EFDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OneUpDraggable.app/OneUpDraggable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneUpDraggable/OneUpDraggable-Prefix.pch";
+				INFOPLIST_FILE = "OneUpDraggableTests/OneUpDraggableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7497393917994272007EFDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OneUpDraggable.app/OneUpDraggable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneUpDraggable/OneUpDraggable-Prefix.pch";
+				INFOPLIST_FILE = "OneUpDraggableTests/OneUpDraggableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		749738F717994271007EFDDE /* Build configuration list for PBXProject "OneUpDraggable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7497393217994272007EFDDE /* Debug */,
+				7497393317994272007EFDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7497393417994272007EFDDE /* Build configuration list for PBXNativeTarget "OneUpDraggable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7497393517994272007EFDDE /* Debug */,
+				7497393617994272007EFDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7497393717994272007EFDDE /* Build configuration list for PBXNativeTarget "OneUpDraggableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7497393817994272007EFDDE /* Debug */,
+				7497393917994272007EFDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7497391917994271007EFDDE /* OneUpDraggable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7497391A17994271007EFDDE /* OneUpDraggable.xcdatamodel */,
+			);
+			currentVersion = 7497391A17994271007EFDDE /* OneUpDraggable.xcdatamodel */;
+			path = OneUpDraggable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 749738F417994271007EFDDE /* Project object */;
+}
