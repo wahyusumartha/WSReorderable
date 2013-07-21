@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WSReorderableCollectionViewFlowLayout.h"
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController<WSReorderableCollectionViewDataSource, WSReorderableCollectionViewDelegateFlowLayout>
+
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (weak, nonatomic) IBOutlet WSReorderableCollectionViewFlowLayout *collectionViewLayout;
 
 @end
